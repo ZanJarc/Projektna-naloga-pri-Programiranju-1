@@ -1,7 +1,7 @@
 ﻿# Projektna-naloga pri Programiranju 1
 To bo moja projektna naloga pri predmetu Programiranje 1 v študijskem letu 2018/2019.
 
-##S strani avto.net bom skoraj vsak dan shranil podatke iz rubrike Top100.
+## S strani avto.net bom skoraj vsak dan shranil podatke iz rubrike Top100.
 S tem bom dobil v nekaj tednih dokaj reprezentativen vzorec prodaje avtomobilov v Sloveniji.
 
 Zajel bom naslednje podatke:
