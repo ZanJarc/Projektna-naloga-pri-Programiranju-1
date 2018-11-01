@@ -1,912 +1,875 @@
 [
      {
-          "ime": "Peugeot 206 CC 1.6 16V",
-          "letnik": "2004",
-          "kilometrina": "192145 km",
-          "motor": "bencinski motor, 1587 ccm, 80 kW  / 109 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Opel Mokka 4x4 1.6 CDTI Cosmo Kamera Usn...",
-          "letnik": "2016",
-          "kilometrina": "115443 km",
-          "motor": "diesel motor, 1598 ccm, 100 kW  / 136 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Renault Clio 1.4 16V Dynamique",
-          "letnik": "2001",
-          "kilometrina": "189000 km",
-          "motor": "bencinski motor, 1390 ccm, 72 kW  / 98 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "BMW serija 3: 318d touring",
-          "letnik": "2004",
-          "kilometrina": "283100 km",
-          "motor": "diesel motor, 1995 ccm, 85 kW  / 116 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Ford Focus 1.8 16V ",
+          "ime": "Renault Vel Satis Initiale 3.0 V6 dCi Pr...",
           "letnik": "2004",
           "kilometrina": "230000 km",
-          "motor": "bencinski motor, 1796 ccm, 85 kW  / 116 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Renault Megane Coupé 1.6 16V",
-          "letnik": "1999",
-          "kilometrina": "27000 km",
-          "motor": "bencinski motor, 1598 ccm, 79 kW  / 108 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Citroen C8 2.0 HDi 16V SX",
-          "letnik": "2004",
-          "kilometrina": "26500 km",
-          "motor": "diesel motor, 1997 ccm, 79 kW  / 108 KM",
+          "motor": "diesel motor, 2958 ccm, 130 kW  / 177 KM",
           "menjalnik": "avtomatski menjalnik",
+          "cena": "540€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "Mercedes-Benz C-Razred C 200 CDI Avantga...",
-          "letnik": "2013",
-          "kilometrina": "139186 km",
-          "motor": "diesel motor, 2143 ccm, 100 kW  / 136 KM",
+          "ime": "Mercedes-Benz C-Razred PARKING SENZORJI-...",
+          "letnik": "2012",
+          "kilometrina": "144143 km",
+          "motor": "diesel motor, 2143 ccm, 89 kW  / 121 KM",
           "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "14990€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "Peugeot Partner Kombi  2.0 ",
-          "letnik": "2004",
-          "kilometrina": "33364 km",
-          "motor": "diesel motor, 1997 ccm, 66 kW  / 90 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volkswagen Golf 1.9 TDI ODLIČEN-SLO-VOZI...",
-          "letnik": "2006",
-          "kilometrina": "258000 km",
-          "motor": "diesel motor, 1896 ccm, 66 kW  / 90 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Alfa Romeo 156 2.4 JTD",
-          "letnik": "2004",
-          "kilometrina": "1 km",
-          "motor": "diesel motor, 2387 ccm, 100 kW  / 136 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Mercedes-Benz E-Razred E 220 CDI AVANTGA...",
-          "letnik": "2010",
-          "kilometrina": "254000 km",
-          "motor": "diesel motor, 2143 ccm, 125 kW  / 170 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "BMW serija 5: 525d ODLIČEN",
-          "letnik": "2004",
-          "kilometrina": "3 km",
-          "motor": "diesel motor, 2497 ccm, 130 kW  / 177 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Mitsubishi Grandis 2.0 VW motor. 7 sedež...",
-          "letnik": "2005",
-          "kilometrina": "305000 km",
-          "motor": "diesel motor, 1968 ccm, 100 kW  / 136 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Audi A6 Avant 2.0 TDI ultra S-LINE S-TRO...",
-          "letnik": "2014",
-          "kilometrina": "185000 km",
-          "motor": "diesel motor, 1968 ccm, 140 kW  / 191 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Ford Kuga 4x4 2.0 TDCi Titanium",
-          "letnik": "2014",
-          "kilometrina": "117000 km",
-          "motor": "diesel motor, 1997 ccm, 103 kW  / 140 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Renault Megane Coupé 1.6 16V",
-          "letnik": "1999",
-          "kilometrina": "25300 km",
-          "motor": "bencinski motor, 1598 ccm, 79 kW  / 108 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Citroen C4 Picasso 1.6 HDi Exclusive FAP...",
-          "letnik": "2011",
-          "kilometrina": "187000 km",
-          "motor": "diesel motor, 1560 ccm, 80 kW  / 109 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Kia Sportage 2.0",
-          "letnik": "1996",
-          "kilometrina": "100000 km",
-          "motor": "bencinski motor, 1998 ccm, 70 kW  / 95 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Citroen C4 Grand Picasso 1.6 HDi SX FAP ...",
+          "ime": "Renault Espace Privilege 2.0 dCi Proacti...",
           "letnik": "2008",
-          "kilometrina": "230000 km",
-          "motor": "diesel motor, 1560 ccm, 80 kW  / 109 KM",
+          "kilometrina": "208900 km",
+          "motor": "diesel motor, 1995 ccm, 110 kW  / 150 KM",
+          "menjalnik": "avtomatski menjalnik / tiptronic",
+          "cena": "4500€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Citroen C4 1.6 BLUEHDI 120 S S",
+          "letnik": "2016",
+          "kilometrina": "135000 km",
+          "motor": "diesel motor, 1560 ccm, 88 kW  / 120 KM",
           "menjalnik": "avtomatski menjalnik",
+          "cena": "10490€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "Toyota RAV4 2.2 D-4D 4WD X",
-          "letnik": "2007",
-          "kilometrina": "266000 km",
-          "motor": "diesel motor, 2231 ccm, 130 kW  / 177 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volkswagen Golf Trendline 1.9 TDI",
+          "ime": "Volkswagen Polo 1.4 Comfortline",
           "letnik": "2002",
-          "kilometrina": "420000 km",
-          "motor": "diesel motor, 1896 ccm, 74 kW  / 101 KM",
+          "kilometrina": "203000 km",
+          "motor": "bencinski motor, 1390 ccm, 55 kW  / 75 KM",
           "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "990€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "Opel Zafira Essentia 1.8-52.000.KM-7 SED...",
-          "letnik": "2010",
-          "kilometrina": "52000 km",
-          "motor": "bencinski motor, 1796 ccm, 103 kW  / 140 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Fiat Punto 1.2",
-          "letnik": "2000",
-          "kilometrina": "151428 km",
-          "motor": "bencinski motor, 1242 ccm, 59 kW  / 80 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "BMW serija 3: 318Ci Avt.",
-          "letnik": "2000",
-          "kilometrina": "203500 km",
-          "motor": "bencinski motor, 1895 ccm, 87 kW  / 119 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Peugeot Expert ",
-          "letnik": "2003",
-          "kilometrina": "26000 km",
-          "motor": "diesel motor, 2000 ccm, 78 kW  / 106 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Fiat Panda 4x4 1.2",
-          "letnik": "2006",
-          "kilometrina": "109000 km",
-          "motor": "bencinski motor, 1242 ccm, 44 kW  / 60 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Audi A6 Avant 2.7 V6 TDI",
-          "letnik": "2006",
-          "kilometrina": "261000 km",
-          "motor": "diesel motor, 2698 ccm, 132 kW  / 180 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volkswagen Passat Variant 1.6 TDI BMT",
-          "letnik": "2016",
-          "kilometrina": "137100 km",
-          "motor": "diesel motor, 1598 ccm, 88 kW  / 120 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Fiat Punto 176 AQ55A01",
-          "letnik": "1999",
-          "kilometrina": "155206 km",
-          "motor": "bencinski motor, 40 kW  / 55 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Chevrolet Spark 0.8 Direct A C",
-          "letnik": "2007",
-          "kilometrina": "66000 km",
-          "motor": "bencinski motor, 796 ccm, 38 kW  / 52 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Mercedes-Benz B-Razred B 180 CDI Sports ",
-          "letnik": "2013",
-          "kilometrina": "139000 km",
-          "motor": "diesel motor, 1796 ccm, 80 kW  / 109 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "BMW serija X6: xDrive50i Avt.",
-          "letnik": "2008",
-          "kilometrina": "66000 km",
-          "motor": "bencinski motor, 4395 ccm, 300 kW  / 409 KM",
-          "menjalnik": "avtomatski menjalnik / tiptronic",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Renault Megane 1.6 16V Elan",
-          "letnik": "2008",
-          "kilometrina": "89000 km",
-          "motor": "bencinski motor, 1598 ccm, 82 kW  / 112 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Mercedes-Benz SLK-Razred SLK 200 Roadste...",
-          "letnik": "1997",
-          "kilometrina": "250000 km",
-          "motor": "bencinski motor, 1998 ccm, 100 kW  / 136 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Škoda Superb 1.4 TSI Odlicen",
-          "letnik": "2010",
-          "kilometrina": "270000 km",
-          "motor": "bencinski motor, 1390 ccm, 92 kW  / 125 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Mercedes-Benz ML-Razred ML 320 CDI Avt.",
-          "letnik": "2008",
-          "kilometrina": "261000 km",
-          "motor": "diesel motor, 2987 ccm, 165 kW  / 225 KM",
-          "menjalnik": "avtomatski menjalnik / tiptronic",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Audi A6 Avant 3.0 TDI S-LINE 1 LETO JAMS...",
-          "letnik": "2013",
-          "kilometrina": "196154 km",
-          "motor": "diesel motor, 2967 ccm, 150 kW  / 205 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Audi A4 Avant 2.0 TDI clean diesel  190 ...",
-          "letnik": "2015",
-          "kilometrina": "128212 km",
-          "motor": "diesel motor, 1968 ccm, 140 kW  / 191 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volkswagen Sharan 2.0 TDI",
-          "letnik": "2006",
-          "kilometrina": "253710 km",
-          "motor": "diesel motor, 1968 ccm, 103 kW  / 140 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Mercedes-Benz E-Razred E 220 d Avt.",
-          "letnik": "2016",
-          "kilometrina": "68700 km",
-          "motor": "diesel motor, 1950 ccm, 143 kW  / 195 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volkswagen Touareg ODLIČEN KOT NOV TDI 3...",
-          "letnik": "2007",
-          "kilometrina": "302778 km",
-          "motor": "diesel motor, 2967 ccm, 176 kW  / 240 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Škoda Superb Combi 2.0 TDI CR Elegance",
-          "letnik": "2011",
-          "kilometrina": "205000 km",
-          "motor": "diesel motor, 1968 ccm, 103 kW  / 140 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Toyota RAV4 2.0 D-4D 4WD",
-          "letnik": "2003",
-          "kilometrina": "231500 km",
-          "motor": "diesel motor, 1995 ccm, 85 kW  / 116 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Ford Galaxy 1.9 TDI Ghia",
-          "letnik": "2005",
-          "kilometrina": "300000 km",
-          "motor": "diesel motor, 1896 ccm, 85 kW  / 116 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Mitsubishi Colt 1.5 DI-D Instyle",
-          "letnik": "2007",
-          "kilometrina": "228400 km",
-          "motor": "diesel motor, 1493 ccm, 70 kW  / 95 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Opel Insignia SportsTourer 2.0 NAVI ugod...",
-          "letnik": "2009",
-          "kilometrina": "231000 km",
-          "motor": "diesel motor, 1956 ccm, 96 kW  / 131 KM",
-          "menjalnik": "avtomatski menjalnik / tiptronic",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Audi A4 Avant 2.0 TDI s-line",
-          "letnik": "2006",
-          "kilometrina": "262000 km",
-          "motor": "diesel motor, 1968 ccm, 103 kW  / 140 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volvo V40 1.8",
-          "letnik": "1998",
-          "kilometrina": "280000 km",
-          "motor": "bencinski motor, 1731 ccm, 85 kW  / 116 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Hyundai Sonata 2.4 GLS TOP-K",
-          "letnik": "2005",
-          "kilometrina": "154100 km",
-          "motor": "bencinski motor, 2359 ccm, 119 kW  / 162 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Renault Megane 1.4 16V Authentique Pack",
-          "letnik": "2003",
-          "kilometrina": "195250 km",
+          "ime": "Renault Clio 1.4 16V",
+          "letnik": "2001",
+          "kilometrina": "194250 km",
           "motor": "bencinski motor, 1390 ccm, 72 kW  / 98 KM",
           "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "290€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "BMW serija 3: 330xd Touring Advantage",
-          "letnik": "2006",
-          "kilometrina": "328000 km",
-          "motor": "diesel motor, 2993 ccm, 170 kW  / 232 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "BMW serija 5: 530d avtomatik",
-          "letnik": "1999",
-          "kilometrina": "286000 km",
-          "motor": "diesel motor, 2926 ccm, 135 kW  / 184 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Kia CeeD 1.4 CVVT LX Fresh",
-          "letnik": "2007",
-          "kilometrina": "142000 km",
-          "motor": "bencinski motor, 1396 ccm, 80 kW  / 109 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Dacia Logan MCV Ambiance 1.5 dCi",
-          "letnik": "2007",
-          "kilometrina": "279268 km",
-          "motor": "diesel motor, 1461 ccm, 50 kW  / 68 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Mazda Mazda6 CD140 TE Plus znana zgodovi...",
+          "ime": "Mazda Mazda6 Sport Combi CD140 GTA",
           "letnik": "2008",
-          "kilometrina": "224000 km",
+          "kilometrina": "147000 km",
           "motor": "diesel motor, 1998 ccm, 103 kW  / 140 KM",
           "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "5500€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "Renault Megane ",
-          "letnik": "2001",
-          "kilometrina": "266300 km",
-          "motor": "bencinski motor, 1598 ccm, 79 kW  / 108 KM",
+          "ime": "Renault Twingo 1.2 Expression",
+          "letnik": "2002",
+          "kilometrina": "138000 km",
+          "motor": "bencinski motor, 1149 ccm, 43 kW  / 59 KM",
           "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "550€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "Mercedes-Benz CLA-Razred CLA 180",
-          "letnik": "2017",
-          "kilometrina": "55000 km",
-          "motor": "bencinski motor, 1595 ccm, 90 kW  / 123 KM",
+          "ime": "Škoda Octavia 1.9 TDI Elegance",
+          "letnik": "2004",
+          "kilometrina": "357000 km",
+          "motor": "diesel motor, 1896 ccm, 77 kW  / 105 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "3500€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Audi A4 Avant 1.9 TDI ODLIČEN",
+          "letnik": "2006",
+          "kilometrina": "260000 km",
+          "motor": "diesel motor, 1896 ccm, 85 kW  / 116 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "4550€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Kia Rio ",
+          "letnik": "2013",
+          "kilometrina": "154029 km",
+          "motor": "diesel motor, 66 kW  / 90 KM",
           "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "5800€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "BMW serija X5: xDrive30d Avt.M optik",
-          "letnik": "2008",
-          "kilometrina": "303000 km",
+          "ime": "Mitsubishi Lancer 1.8",
+          "letnik": "2010",
+          "kilometrina": "141000 km",
+          "motor": "bencinski motor, 1798 ccm, 105 kW  / 143 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "6490€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Alfa Romeo 166 166",
+          "letnik": "2004",
+          "kilometrina": "180000 km",
+          "motor": "diesel motor, 130 kW  / 177 KM",
+          "menjalnik": "avtomatski menjalnik / tiptronic",
+          "cena": "4850€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Chevrolet Cruze 1.6 16V LS+nove zimske g...",
+          "letnik": "2010",
+          "kilometrina": "89000 km",
+          "motor": "bencinski motor, 1598 ccm, 91 kW  / 124 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "4750€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Nissan Juke ",
+          "letnik": "2012",
+          "kilometrina": "89000 km",
+          "motor": "bencinski motor, 1598 ccm, 86 kW  / 117 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "7990€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Audi A4 2.0 TDI Business Sport Multitron...",
+          "letnik": "2014",
+          "kilometrina": "187000 km",
+          "motor": "diesel motor, 1968 ccm, 110 kW  / 150 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "16900€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Peugeot 807 2.0 HDI NAVI. EL. DRSNA VRAT...",
+          "letnik": "2011",
+          "kilometrina": "182000 km",
+          "motor": "diesel motor, 2000 ccm, 103 kW  / 140 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "7800€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "BMW serija X5: 3.0d Avt.",
+          "letnik": "2007",
+          "kilometrina": "244000 km",
           "motor": "diesel motor, 2993 ccm, 173 kW  / 236 KM",
           "menjalnik": "avtomatski menjalnik / tiptronic",
+          "cena": "13777€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "Audi A4 Avant 2.0 TDI SPORT NAVI XENON P...",
-          "letnik": "2014",
-          "kilometrina": "202000 km",
-          "motor": "diesel motor, 1968 ccm, 110 kW  / 150 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Opel Insignia SportsTourer 2.0 CDTI C os...",
-          "letnik": "2014",
-          "kilometrina": "92000 km",
-          "motor": "diesel motor, 1956 ccm, 120 kW  / 164 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Peugeot 207 Premium 1.4 16V",
-          "letnik": "2006",
-          "kilometrina": "195342 km",
-          "motor": "bencinski motor, 1360 ccm, 65 kW  / 89 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volkswagen Golf 1.9 TDI",
-          "letnik": "2000",
-          "kilometrina": "260000 km",
-          "motor": "diesel motor, 1896 ccm, 66 kW  / 90 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volkswagen Passat Variant 2.0 TDI BMT Co...",
-          "letnik": "2015",
-          "kilometrina": "173955 km",
-          "motor": "diesel motor, 1968 ccm, 110 kW  / 150 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volkswagen Polo Polo 1.6 TDI Comfortline",
-          "letnik": "2011",
-          "kilometrina": "138600 km",
-          "motor": "diesel motor, 1598 ccm, 66 kW  / 90 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volkswagen Tiguan 2.0 TDI BMT R-Line Edi...",
-          "letnik": "2018",
-          "kilometrina": "6400 km",
-          "motor": "diesel motor, 1968 ccm, 110 kW  / 150 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Nissan Juke 1.6 DIG-T Tekna 191 KM.MAX O...",
-          "letnik": "2011",
-          "kilometrina": "109000 km",
-          "motor": "bencinski motor, 1618 ccm, 140 kW  / 191 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Alfa Romeo MiTo 1.4 T-Jet Distinctive sp...",
+          "ime": "Kia Sportage 4x4 2.0 CRDi EX Champion",
           "letnik": "2008",
-          "kilometrina": "160000 km",
-          "motor": "bencinski motor, 1368 ccm, 114 kW  / 155 KM",
+          "kilometrina": "157000 km",
+          "motor": "diesel motor, 1991 ccm, 103 kW  / 140 KM",
           "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "5600€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "Audi A4 Avant quattro 2.5 V6 TDI",
+          "ime": "Renault Laguna Expression 1.9 dCi",
+          "letnik": "2003",
+          "kilometrina": "242000 km",
+          "motor": "diesel motor, 1870 ccm, 79 kW  / 108 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "1250€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Peugeot 307 SW 2.0 HDI 90",
           "letnik": "2004",
-          "kilometrina": "272000 km",
-          "motor": "diesel motor, 2496 ccm, 132 kW  / 180 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Ford Grand C-Max 1.5 TDCi.NOVA OBLIKA.1....",
-          "letnik": "2015",
-          "kilometrina": "189448 km",
-          "motor": "diesel motor, 1499 ccm, 88 kW  / 120 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "BMW serija 5: 520d touring KOT NOV Head ...",
-          "letnik": "2012",
-          "kilometrina": "252000 km",
-          "motor": "diesel motor, 1995 ccm, 135 kW  / 184 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volkswagen Touran 1.6 TDI BMT-PDC-NAVIGA...",
-          "letnik": "2013",
-          "kilometrina": "161000 km",
-          "motor": "diesel motor, 1598 ccm, 77 kW  / 105 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Citroen C4 Grand Picasso 1.6 e-HDi  NAVI...",
-          "letnik": "2015",
-          "kilometrina": "157454 km",
-          "motor": "diesel motor, 1560 ccm, 85 kW  / 116 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Opel Astra 1.4 Turbo Enjoy",
-          "letnik": "2016",
-          "kilometrina": "25900 km",
-          "motor": "bencinski motor, 1399 ccm, 92 kW  / 125 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volkswagen Passat 1.9 Comfortline TDI Av...",
-          "letnik": "1998",
-          "kilometrina": "350000 km",
-          "motor": "diesel motor, 1896 ccm, 81 kW  / 110 KM",
+          "kilometrina": "357000 km",
+          "motor": "diesel motor, 1997 ccm, 66 kW  / 90 KM",
           "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "1350€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "Renault Megane Berline GT dCi 165 EDC",
-          "letnik": "2017",
-          "kilometrina": "6000 km",
-          "motor": "diesel motor, 1598 ccm, 120 kW  / 164 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Nissan X-Trail 2.2 dCi Elegance Limited",
-          "letnik": "2005",
-          "kilometrina": "217000 km",
-          "motor": "diesel motor, 2184 ccm, 100 kW  / 136 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Honda Civic 2.0 Type R Plus",
-          "letnik": "2008",
-          "kilometrina": "60000 km",
-          "motor": "bencinski motor, 1998 ccm, 148 kW  / 202 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Audi A3 1.6 TDI.105 Business Line ",
-          "letnik": "2013",
-          "kilometrina": "155573 km",
-          "motor": "diesel motor, 1598 ccm, 77 kW  / 105 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Mitsubishi Carisma 1.6 GLXi",
-          "letnik": "1997",
-          "kilometrina": "262000 km",
-          "motor": "bencinski motor, 1597 ccm, 73 kW  / 100 KM",
+          "ime": "Renault Twingo Dynamique 1.2",
+          "letnik": "2010",
+          "kilometrina": "97000 km",
+          "motor": "bencinski motor, 1149 ccm, 43 kW  / 59 KM",
           "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "3700€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "Audi A4 Avant 2.0 TDI SLO POREKLO TER OD...",
-          "letnik": "2005",
-          "kilometrina": "280000 km",
+          "ime": "Renault Megane Grandtour 1.9 dCi SLOVENS...",
+          "letnik": "2010",
+          "kilometrina": "194500 km",
+          "motor": "diesel motor, 1870 ccm, 96 kW  / 131 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "4299€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Ford Focus 1.6 16V Comfort",
+          "letnik": "2003",
+          "kilometrina": "160285 km",
+          "motor": "bencinski motor, 1596 ccm, 74 kW  / 101 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "1100€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Volkswagen Passat 2.0 TDI DPF Highline C...",
+          "letnik": "2009",
+          "kilometrina": "228000 km",
           "motor": "diesel motor, 1968 ccm, 103 kW  / 140 KM",
           "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "6190€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "Opel Zafira 2.0 CDTI Edition Start Stop",
-          "letnik": "2016",
-          "kilometrina": "162300 km",
-          "motor": "diesel motor, 1956 ccm, 95 kW  / 130 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Suzuki Grand Vitara 1.9 TD Deluxe",
-          "letnik": "2007",
-          "kilometrina": "179766 km",
-          "motor": "diesel motor, 1870 ccm, 95 kW  / 130 KM",
+          "ime": "Mitsubishi Outlander 2.0 4x4",
+          "letnik": "2004",
+          "kilometrina": "180000 km",
+          "motor": "bencinski motor, 1997 ccm, 100 kW  / 136 KM",
           "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "2950€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Volkswagen Golf Comfortline 2.0 SDI",
+          "letnik": "2004",
+          "kilometrina": "330000 km",
+          "motor": "diesel motor, 1968 ccm, 55 kW  / 75 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "2250€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Mercedes-Benz Vito 120 CDI dolgi 4993 ",
+          "letnik": "2006",
+          "kilometrina": "298000 km",
+          "motor": "diesel motor, 2987 ccm, 150 kW  / 205 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "7900€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Ford Focus RS",
+          "letnik": "2016",
+          "kilometrina": "29500 km",
+          "motor": "bencinski motor, 2261 ccm, 257 kW  / 350 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "33500€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "BMW serija 1: 120d Xenon BREZ POLOGA 125...",
+          "letnik": "2009",
+          "kilometrina": "226301 km",
+          "motor": "diesel motor, 1995 ccm, 130 kW  / 177 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "7190€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "BMW serija 3: 318d SportLine Model 2016 ...",
+          "letnik": "2015",
+          "kilometrina": "158500 km",
+          "motor": "diesel motor, 1995 ccm, 110 kW  / 150 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "16555€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Volkswagen Golf 5 2.0FSI",
+          "letnik": "2004",
+          "kilometrina": "220000 km",
+          "motor": "bencinski motor, 1984 ccm, 110 kW  / 150 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "2000€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Citroen C3 1.4i Exclusive",
+          "letnik": "2006",
+          "kilometrina": "184000 km",
+          "motor": "bencinski motor, 1360 ccm, 54 kW  / 74 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "2000€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Renault Clio 1.2 Storia Team KLIMA-SLO-O...",
+          "letnik": "2007",
+          "kilometrina": "105000 km",
+          "motor": "bencinski motor, 1149 ccm, 43 kW  / 59 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "2390€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Audi A6 Avant 2.0 TDI Multitronic XENON ...",
+          "letnik": "2012",
+          "kilometrina": "92500 km",
+          "motor": "diesel motor, 1968 ccm, 130 kW  / 177 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "13950€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Renault Clio 1.2",
+          "letnik": "2000",
+          "kilometrina": "208472 km",
+          "motor": "bencinski motor, 43 kW  / 59 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "370€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Opel Astra 1.4 16V GL",
+          "letnik": "1999",
+          "kilometrina": "150000 km",
+          "motor": "bencinski motor, 1389 ccm, 66 kW  / 90 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "750€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Mercedes-Benz C-Razred 77.000km-PARKING ...",
+          "letnik": "2013",
+          "kilometrina": "77042 km",
+          "motor": "diesel motor, 2143 ccm, 88 kW  / 120 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "15990€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Hyundai Matrix 1.6 GLS",
+          "letnik": "2005",
+          "kilometrina": "217000 km",
+          "motor": "bencinski motor, 1599 ccm, 76 kW  / 104 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "850€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "BMW serija 3: M OPTIK-BIXENON-VELIKA NAV...",
+          "letnik": "2010",
+          "kilometrina": "193166 km",
+          "motor": "diesel motor, 1995 ccm, 105 kW  / 143 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "11990€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "BMW serija 3: 320d xDrive Touring f1 pre...",
+          "letnik": "2015",
+          "kilometrina": "35000 km",
+          "motor": "diesel motor, 1995 ccm, 135 kW  / 184 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "25500€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Fiat Punto Grande 1.4 8V+ NAKUP BREZ POL...",
+          "letnik": "2008",
+          "kilometrina": "186598 km",
+          "motor": "bencinski motor, 1368 ccm, 57 kW  / 78 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "2490€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Subaru Impreza 2.0D ",
+          "letnik": "2010",
+          "kilometrina": "220000 km",
+          "motor": "diesel motor, 1998 ccm, 110 kW  / 150 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "6500€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "BMW serija 3: 318i touring",
+          "letnik": "2000",
+          "kilometrina": "250000 km",
+          "motor": "bencinski motor, 1895 ccm, 87 kW  / 119 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "1100€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Citroen C4 Picasso 1.6 BlueHDi S S Attra...",
+          "letnik": "2016",
+          "kilometrina": "129000 km",
+          "motor": "diesel motor, 1560 ccm, 88 kW  / 120 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "10900€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Volkswagen Golf 1.6 TDI BMT 40 let",
+          "letnik": "2015",
+          "kilometrina": "42000 km",
+          "motor": "diesel motor, 1598 ccm, 81 kW  / 110 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "16000€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Hyundai Elantra 1.6 GL",
+          "letnik": "2002",
+          "kilometrina": "250000 km",
+          "motor": "bencinski motor, 1599 ccm, 79 kW  / 108 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "300€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Fiat Punto Grande 1.3 Multijet 16V+ BERI...",
+          "letnik": "2009",
+          "kilometrina": "206545 km",
+          "motor": "diesel motor, 1248 ccm, 55 kW  / 75 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "2540€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Audi A6 3.0 TDI quattro clean diesel Bus...",
+          "letnik": "2012",
+          "kilometrina": "169000 km",
+          "motor": "diesel motor, 2967 ccm, 180 kW  / 245 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "22300€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Audi A4 Avant 2.0 TDI DPF",
+          "letnik": "2009",
+          "kilometrina": "252000 km",
+          "motor": "diesel motor, 1968 ccm, 88 kW  / 120 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "7400€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Peugeot 307 XS 1.6 16V + BERI OPIS SPODA...",
+          "letnik": "2006",
+          "kilometrina": "155214 km",
+          "motor": "bencinski motor, 1587 ccm, 80 kW  / 109 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "2580€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "BMW serija 3: 318d Touring",
+          "letnik": "2008",
+          "kilometrina": "218000 km",
+          "motor": "diesel motor, 1995 ccm, 105 kW  / 143 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "5300€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Citroen C3 1.4 HDi KLIMA-SLO-ODLIČEN-BRE...",
+          "letnik": "2007",
+          "kilometrina": "153000 km",
+          "motor": "diesel motor, 1398 ccm, 50 kW  / 68 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "2490€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "BMW serija 5: 530xd",
+          "letnik": "2007",
+          "kilometrina": "312000 km",
+          "motor": "diesel motor, 2993 ccm, 173 kW  / 236 KM",
+          "menjalnik": "avtomatski menjalnik / tiptronic",
+          "cena": "11200€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Renault Scenic RT 1.6 16V",
+          "letnik": "2000",
+          "kilometrina": "193000 km",
+          "motor": "bencinski motor, 1598 ccm, 79 kW  / 108 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "850€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Nissan Micra 1.2 Visia + NAKUP BREZ POLO...",
+          "letnik": "2006",
+          "kilometrina": "155421 km",
+          "motor": "bencinski motor, 1240 ccm, 48 kW  / 65 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "2240€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Volkswagen Passat Variant 4motion 2.0 TD...",
+          "letnik": "2011",
+          "kilometrina": "209000 km",
+          "motor": "diesel motor, 1968 ccm, 103 kW  / 140 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "10900€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Volkswagen Golf Variant 1.6 TDI BlueMoti...",
+          "letnik": "2015",
+          "kilometrina": "93950 km",
+          "motor": "diesel motor, 1598 ccm, 77 kW  / 105 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "10790€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Volkswagen Passat Variant 2.0 TDI BMT Hi...",
+          "letnik": "2011",
+          "kilometrina": "248000 km",
+          "motor": "diesel motor, 1968 ccm, 103 kW  / 140 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "10000€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Volkswagen Golf 2.0 TDI BMT Highline DSG",
+          "letnik": "2013",
+          "kilometrina": "81000 km",
+          "motor": "diesel motor, 1968 ccm, 110 kW  / 150 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "15990€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Volkswagen Golf Plus 1.9 TDI",
+          "letnik": "2007",
+          "kilometrina": "230000 km",
+          "motor": "diesel motor, 1896 ccm, 66 kW  / 90 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "4350€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Peugeot 107 Urban Move5 1.0",
+          "letnik": "2013",
+          "kilometrina": "73000 km",
+          "motor": "bencinski motor, 998 ccm, 50 kW  / 68 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "5100€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Volkswagen Polo ",
+          "letnik": "2002",
+          "kilometrina": "194500 km",
+          "motor": "bencinski motor, 1200 ccm, 40 kW  / 55 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "1250€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "BMW serija 5: 525D M-PAKET ",
+          "letnik": "2007",
+          "kilometrina": "255000 km",
+          "motor": "diesel motor, 2497 ccm, 130 kW  / 177 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "7850€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Citroen C4 1.6 HDi Tendance",
+          "letnik": "2011",
+          "kilometrina": "175000 km",
+          "motor": "diesel motor, 1560 ccm, 68 kW  / 93 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "5700€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Lancia Delta 1.6 Multijet ",
+          "letnik": "2011",
+          "kilometrina": "234000 km",
+          "motor": "diesel motor, 1598 ccm, 88 kW  / 120 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "6200€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Kia CeeD 1.6 CRDi SLOVENSKA",
+          "letnik": "2009",
+          "kilometrina": "189400 km",
+          "motor": "diesel motor, 1582 ccm, 85 kW  / 116 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "3499€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Renault Espace Expression 2.0 dCi",
+          "letnik": "2007",
+          "kilometrina": "340000 km",
+          "motor": "diesel motor, 1995 ccm, 110 kW  / 150 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "2100€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Mercedes-Benz S-Razred S 320 CDI Avt.",
+          "letnik": "2007",
+          "kilometrina": "385500 km",
+          "motor": "diesel motor, 2987 ccm, 173 kW  / 236 KM",
+          "menjalnik": "avtomatski menjalnik / tiptronic",
+          "cena": "12700€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Volkswagen Golf 4MOTION 1.6 TDI BMT High...",
+          "letnik": "2015",
+          "kilometrina": "134000 km",
+          "motor": "diesel motor, 1598 ccm, 81 kW  / 110 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "13990€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Peugeot Partner ",
+          "letnik": "2004",
+          "kilometrina": "285189 km",
+          "motor": "diesel motor, 66 kW  / 90 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "1050€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Mercedes-Benz R-Razred R 4MATIC 280 CDI ...",
+          "letnik": "2010",
+          "kilometrina": "218000 km",
+          "motor": "diesel motor, 2987 ccm, 140 kW  / 191 KM",
+          "menjalnik": "avtomatski menjalnik / tiptronic",
+          "cena": "8250€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "BMW serija 3: 318d Avt. Gran Turismo Xen...",
+          "letnik": "2015",
+          "kilometrina": "141516 km",
+          "motor": "diesel motor, 1995 ccm, 105 kW  / 143 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "18990€",
           "cas": [
                1,
                11
@@ -918,160 +881,235 @@
           "kilometrina": "209000 km",
           "motor": "diesel motor, 1997 ccm, 100 kW  / 136 KM",
           "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "4650€",
           "cas": [
                1,
                11
           ]
      },
      {
-          "ime": "Honda Civic Tourer 1.8 i-VTEC Elegance",
-          "letnik": "2015",
-          "kilometrina": "54000 km",
-          "motor": "bencinski motor, 1798 ccm, 104 kW  / 142 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "BMW serija X1: sDrive18d",
-          "letnik": "2011",
-          "kilometrina": "145000 km",
-          "motor": "diesel motor, 1995 ccm, 105 kW  / 143 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Saab 9-3 Sport Combi  ",
-          "letnik": "2009",
-          "kilometrina": "160000 km",
-          "motor": "diesel motor, 1910 ccm, 110 kW  / 150 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Hyundai Coupe 1.6 GL Top-K",
-          "letnik": "2003",
-          "kilometrina": "208000 km",
-          "motor": "bencinski motor, 1599 ccm, 77 kW  / 105 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Hyundai Matrix 1.5 CRDi TOP-K",
-          "letnik": "2003",
-          "kilometrina": "220000 km",
-          "motor": "diesel motor, 1493 ccm, 58 kW  / 79 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Peugeot 206 SW X-Design 1.4 HDi  ODLIČEN...",
-          "letnik": "2003",
-          "kilometrina": "180000 km",
-          "motor": "diesel motor, 1398 ccm, 50 kW  / 68 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Renault Megane Berline 1.5 dCi Dynamique...",
-          "letnik": "2005",
-          "kilometrina": "217000 km",
-          "motor": "diesel motor, 1461 ccm, 60 kW  / 82 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "BMW serija 3: 325i",
-          "letnik": "2001",
-          "kilometrina": "270000 km",
-          "motor": "bencinski motor, 2494 ccm, 125 kW  / 170 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Audi A6 Avant 2.0 TDI Navi. BT. Park SZ",
-          "letnik": "2012",
-          "kilometrina": "233000 km",
-          "motor": "diesel motor, 1968 ccm, 130 kW  / 177 KM",
-          "menjalnik": "ročni menjalnik (6 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Smart forfour pulse 1.3",
-          "letnik": "2004",
-          "kilometrina": "182870 km",
-          "motor": "bencinski motor, 1332 ccm, 70 kW  / 95 KM",
-          "menjalnik": "ročni menjalnik (5 pr.)",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volvo 940 940GL",
-          "letnik": "2003",
-          "kilometrina": "250000 km",
-          "motor": "bencinski motor, 96 kW  / 131 KM",
-          "menjalnik": "avtomatski menjalnik / tiptronic",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "BMW serija 5: 525d Bixenon. El.sedeži. N...",
-          "letnik": "2015",
-          "kilometrina": "194000 km",
-          "motor": "diesel motor, 1995 ccm, 160 kW  / 218 KM",
-          "menjalnik": "avtomatski menjalnik",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Audi A6 quattro 3.0 V6 TDI Xsenon usnje",
-          "letnik": "2005",
-          "kilometrina": "214000 km",
-          "motor": "diesel motor, 2967 ccm, 165 kW  / 225 KM",
-          "menjalnik": "avtomatski menjalnik / tiptronic",
-          "cas": [
-               1,
-               11
-          ]
-     },
-     {
-          "ime": "Volkswagen Lupo 1.0",
+          "ime": "Volkswagen Polo Limuzina 1.9 SDI",
           "letnik": "1999",
-          "kilometrina": "200000 km",
-          "motor": "bencinski motor, 999 ccm, 37 kW  / 50 KM",
+          "kilometrina": "205000 km",
+          "motor": "diesel motor, 1896 ccm, 47 kW  / 64 KM",
           "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "500€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Kia CeeD 1.6 CRDi-74.779KM-KOT NOV-KREDI...",
+          "letnik": "2009",
+          "kilometrina": "74779 km",
+          "motor": "diesel motor, 1582 ccm, 66 kW  / 90 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "5999€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Škoda Octavia Combi 1.9 TDI DPF Elegance",
+          "letnik": "2008",
+          "kilometrina": "198000 km",
+          "motor": "diesel motor, 1896 ccm, 77 kW  / 105 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "4990€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Peugeot 206 CC 1.6 16V",
+          "letnik": "2004",
+          "kilometrina": "192145 km",
+          "motor": "bencinski motor, 1587 ccm, 80 kW  / 109 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "1850€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "BMW M2 coupe",
+          "letnik": "2017",
+          "kilometrina": "29000 km",
+          "motor": "bencinski motor, 2989 ccm, 272 kW  / 371 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "45500€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Opel Mokka 4x4 1.6 CDTI Cosmo Kamera Usn...",
+          "letnik": "2016",
+          "kilometrina": "115443 km",
+          "motor": "diesel motor, 1598 ccm, 100 kW  / 136 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "15990€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Renault Clio 1.4 16V Dynamique",
+          "letnik": "2001",
+          "kilometrina": "189000 km",
+          "motor": "bencinski motor, 1390 ccm, 72 kW  / 98 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "990€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "BMW serija 3: 318d touring",
+          "letnik": "2004",
+          "kilometrina": "283100 km",
+          "motor": "diesel motor, 1995 ccm, 85 kW  / 116 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "2550€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Ford Focus 1.8 16V ",
+          "letnik": "2004",
+          "kilometrina": "230000 km",
+          "motor": "bencinski motor, 1796 ccm, 85 kW  / 116 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "200€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Renault Megane Coupé 1.6 16V",
+          "letnik": "1999",
+          "kilometrina": "27000 km",
+          "motor": "bencinski motor, 1598 ccm, 79 kW  / 108 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "1300€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Citroen C8 2.0 HDi 16V SX",
+          "letnik": "2004",
+          "kilometrina": "265000 km",
+          "motor": "diesel motor, 1997 ccm, 79 kW  / 108 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "1000€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Volkswagen Golf Golf 2.0 TDI BMT lounge",
+          "letnik": "2016",
+          "kilometrina": "43000 km",
+          "motor": "diesel motor, 1968 ccm, 112 kW  / 153 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "17750€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Mercedes-Benz C-Razred C 200 CDI Avantga...",
+          "letnik": "2013",
+          "kilometrina": "139186 km",
+          "motor": "diesel motor, 2143 ccm, 100 kW  / 136 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "15490€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Toyota Yaris Verso 1.4 D-4D",
+          "letnik": "2006",
+          "kilometrina": "200000 km",
+          "motor": "diesel motor, 1364 ccm, 55 kW  / 75 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "3300€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Peugeot Partner Kombi  2.0 ",
+          "letnik": "2004",
+          "kilometrina": "33364 km",
+          "motor": "diesel motor, 1997 ccm, 66 kW  / 90 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "2200€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Volkswagen Golf 1.9 TDI ODLIČEN-SLO-VOZI...",
+          "letnik": "2006",
+          "kilometrina": "258000 km",
+          "motor": "diesel motor, 1896 ccm, 66 kW  / 90 KM",
+          "menjalnik": "ročni menjalnik (5 pr.)",
+          "cena": "3990€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Mercedes-Benz E-Razred E 220 CDI AVANTGA...",
+          "letnik": "2010",
+          "kilometrina": "254000 km",
+          "motor": "diesel motor, 2143 ccm, 125 kW  / 170 KM",
+          "menjalnik": "avtomatski menjalnik",
+          "cena": "12200€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "BMW serija 5: 525d ODLIČEN",
+          "letnik": "2004",
+          "kilometrina": "367000 km",
+          "motor": "diesel motor, 2497 ccm, 130 kW  / 177 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "5150€",
+          "cas": [
+               1,
+               11
+          ]
+     },
+     {
+          "ime": "Mitsubishi Grandis 2.0 VW motor. 7 sedež...",
+          "letnik": "2005",
+          "kilometrina": "305000 km",
+          "motor": "diesel motor, 1968 ccm, 100 kW  / 136 KM",
+          "menjalnik": "ročni menjalnik (6 pr.)",
+          "cena": "2890€",
           "cas": [
                1,
                11

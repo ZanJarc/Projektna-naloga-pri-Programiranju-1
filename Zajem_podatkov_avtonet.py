@@ -12,6 +12,7 @@ izlusceni_oglasi = 'oglasi.html'
 podatki_html = 'HTMLpodatki.html'
 podatki_csv = 'CSVpodatki.csv'
 podatki_json = 'JSONpodatki.json'
+slovarji_html = 'slovarji.html'
 now = datetime.datetime.now()
 
 def download_url_to_string(url):
@@ -27,7 +28,7 @@ def download_url_to_string(url):
 def save_string_to_file(text, directory, filename):
     os.makedirs(directory, exist_ok=True)
     path = os.path.join(directory, filename)
-    with open(path, 'w', encoding="windows-1250") as file_out:
+    with open(path, 'w', encoding='utf-8') as file_out:
         file_out.write(text)
     return None
 
@@ -37,7 +38,7 @@ def save_frontpage(url, directory, filename):
     os.makedirs(directory, exist_ok=True)
     path = os.path.join(directory, filename)
     vsebina = download_url_to_string(url)
-    with open(path, 'w', encoding='windows-1250') as datoteka:
+    with open(path, 'w', encoding='utf-8') as datoteka:
         datoteka.write(vsebina)
     print('shranjeno!')
 
@@ -45,7 +46,7 @@ def save_frontpage(url, directory, filename):
 
 def read_file_to_string(directory, filename):
     path = os.path.join(directory, filename)
-    with open(path, encoding='windows-1250') as datoteka:
+    with open(path, encoding='utf-8') as datoteka:
         return datoteka.read()
 
 
@@ -66,7 +67,19 @@ def page_to_ads(directory, filename):
 
 
 
-
+def save_ads(directory, podatki, filename):
+    os.makedirs(directory, exist_ok=True)
+    path_filename = os.path.join(directory, filename)
+    vsebina = read_file_to_string(directory, podatki)
+    vzorec = (
+            r'<!--------------------- DESCRIPTION  ------------------->'
+            r'.*?'
+            r'<!-- START BIG BANNER -->'
+            )
+    with open(path_filename, 'w', encoding='utf-8') as datoteka:   
+        for ujemanje in re.finditer(vzorec, vsebina, re.DOTALL):
+            nas_oglas = ujemanje.group(0)
+            datoteka.write(nas_oglas)  
 
 
 
@@ -74,9 +87,9 @@ def page_to_ads(directory, filename):
 
 
 def izloci_podatke_oglasa(ujemanje_oglasa):
-    
     podatki_oglasa = ujemanje_oglasa.groupdict()
     podatki_oglasa['cas'] = (now.day, now.month)
+    podatki_oglasa['cena'] = podatki_oglasa['cena'] + '€'
     return podatki_oglasa
 
 
@@ -92,7 +105,8 @@ def get_dict_from_ad_block(directory, filename):
     vsebina = read_file_to_string(directory, filename)
     vzorec = re.compile(
     r'<a class="Adlink" href=".*">\n\n<span>(?P<ime>.*)</span>\n\n</a>.*?'
-    r'<li>Letnik 1.registracije:(?P<letnik>\d*)</li>(\n){2}\s*?<li>(?P<kilometrina>.*)?</li><li>(?P<motor>.*)</li><li>(?P<menjalnik>.*)</li>.*?',
+    r'<li>Letnik 1.registracije:(?P<letnik>\d*)</li>(\n){2}\s*?<li>(?P<kilometrina>.*)?</li><li>(?P<motor>.*)</li><li>(?P<menjalnik>.*)</li>.*?'
+    r'EUR=(?P<cena>\d*)',
     re.DOTALL
     )
     for oglas in seznam_oglasov:
@@ -101,6 +115,20 @@ def get_dict_from_ad_block(directory, filename):
     return podatki_oglasov
 
 
+
+
+def pridobi_ceno(directory, filename):
+    cene = []
+    vsebina = read_file_to_string(directory, filename)
+    vzorec = re.compile(
+    r'<!------------ REDNA OBJAVA CENE ------------>\s*'
+    r'(?P<cena>.*)\s*'
+    r'<!------------ KOMENTAR CENE ----------->',
+    re.DOTALL
+    )
+    for ujemanje in vzorec.finditer(vsebina):
+        cene.append(ujemanje.groupdict())
+    return cene
 # Definirajte funkcijo, ki sprejme ime in lokacijo datoteke, ki vsebuje
 # besedilo spletne strani, in vrne seznam slovarjev, ki vsebujejo podatke o
 # vseh oglasih strani.
@@ -112,18 +140,6 @@ def ads_from_file(directory, filename):
     return slovar_oglasov
 
 
-"""def write_csv(fieldnames, rows, directory, filename):
-    '''Write a CSV file to directory/filename. The fieldnames must be a list of
-    strings, the rows a list of dictionaries each mapping a fieldname to a
-    cell-value.'''
-    os.makedirs(directory, exist_ok=True)
-    path = os.path.join(directory, filename)
-    with open(path, 'w', encoding='utf-8') as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-        writer.writeheader()
-        for row in rows:
-            writer.writerow(row)
-    return print('napisal sem csv!')"""
 
 def zapisi_csv(slovarji, imena_polj, directory, filename):
     '''Iz seznama slovarjev ustvari CSV datoteko z glavo.'''

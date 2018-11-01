@@ -11,6 +11,7 @@ Zajel bom naslednje podatke:
 -vrsta motorja
 -menjalnik
 -cena
+-datum pridobitbe podatkov
 
 S tem bom želel ugotoviti naslednje stvari:
 -kakšen tip avtomobila se največkrat prodaja
@@ -18,3 +19,4 @@ S tem bom želel ugotoviti naslednje stvari:
 
 Proti koncu zadnjega oddajnega roka bom s strani avto.net vzel se 1000 oglasov in jih analiziral podobno kot bom analiziral podatke,
 ki jih bom dopolnjeval vsak dan.
+
