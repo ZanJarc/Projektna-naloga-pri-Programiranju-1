@@ -9,6 +9,7 @@ directory_mapa = 'Mapa s podatki'
 izluscena_imena = 'imena.html'
 podatki_html = 'HTMLpodatki_imena.html'
 podatki_csv = 'CSVpodatki_imena.csv'
+imena_stolpcev = ['ime', 'letnik', 'kilometrina', 'motor', 'menjalnik', 'cena', 'cas']
 
 def download_url_to_string(url):
     try:
@@ -23,7 +24,7 @@ def download_url_to_string(url):
 def save_string_to_file(text, directory, filename):
     os.makedirs(directory, exist_ok=True)
     path = os.path.join(directory, filename)
-    with open(path, 'w', encoding='utf-8') as file_out:
+    with open(path, 'a', encoding='utf-8') as file_out:
         file_out.write(text)
     return None
 
@@ -33,7 +34,7 @@ def save_frontpage(url, directory, filename):
     os.makedirs(directory, exist_ok=True)
     path = os.path.join(directory, filename)
     vsebina = download_url_to_string(url)
-    with open(path, 'w', encoding='utf-8') as datoteka:
+    with open(path, 'a', encoding='utf-8') as datoteka:
         datoteka.write(vsebina)
     print('shranjeno!')
 
@@ -108,5 +109,8 @@ def modeli_znamk(directory, filename):
             else:
                 list_of_models[ujemanje.group('znamka')] = [ujemanje.group('model')]
     return list_of_models
+
+
+
    
                 

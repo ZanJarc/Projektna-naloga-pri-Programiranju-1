@@ -13,7 +13,9 @@ podatki_html = 'HTMLpodatki.html'
 podatki_csv = 'CSVpodatki.csv'
 podatki_json = 'JSONpodatki.json'
 slovarji_html = 'slovarji.html'
+directory_dnevno = 'Mapa s podatki/Dnevni podatki'
 now = datetime.datetime.now()
+imena_stolpcev = ['ime', 'letnik', 'kilometrina', 'motor', 'menjalnik', 'cena', 'cas']
 
 
 def download_url_to_string(url):
@@ -29,7 +31,7 @@ def download_url_to_string(url):
 def save_string_to_file(text, directory, filename):
     os.makedirs(directory, exist_ok=True)
     path = os.path.join(directory, filename)
-    with open(path, 'w', encoding='utf-8') as file_out:
+    with open(path, 'a', encoding='utf-8') as file_out:
         file_out.write(text)
     return None
 
@@ -39,7 +41,7 @@ def save_frontpage(url, directory, filename):
     os.makedirs(directory, exist_ok=True)
     path = os.path.join(directory, filename)
     vsebina = download_url_to_string(url)
-    with open(path, 'w', encoding='utf-8') as datoteka:
+    with open(path, 'a', encoding='utf-8') as datoteka:
         datoteka.write(vsebina)
     print('shranjeno!')
 
@@ -104,10 +106,9 @@ def izloci_podatke_oglasa_BOLJSE(ujemanje_oglasa):
     podatki_oglasa['cas'] = (now.day, now.month)
     podatki_oglasa['cena'] = podatki_oglasa['cena'] + '€'
     for znamka in MODELI_BOLJSE:
-        if znamka in podatki_oglasa['ime']:
+        if znamka.lower() in podatki_oglasa['ime'].lower():
             for model in MODELI_BOLJSE[znamka]:
-                if znamka + ' ' + model in podatki_oglasa['ime']:
-                    print('spremenil bom {} v {}'.format(podatki_oglasa['ime'], (znamka + ' ' + model)))
+                if '{} {}'.format(znamka, model).lower() in podatki_oglasa['ime'].lower():
                     podatki_oglasa['ime'] = '{} {}'.format(znamka, model)
     return podatki_oglasa
 
@@ -175,6 +176,10 @@ def pridobi_ceno(directory, filename):
 def ads_from_file(directory, filename):
     slovar_oglasov = get_dict_from_ad_block(directory, filename)
     return slovar_oglasov
+
+def ads_from_file_BOLJSE(directory, filename):
+    slovar = get_dict_from_ad_block_BOLJSE(directory, filename)
+    return slovar
 
 
 
@@ -252,7 +257,7 @@ def modeli_znamk(directory, filename):
 def zapisi_csv(slovarji, imena_polj, directory, filename):
     os.makedirs(directory, exist_ok=True)
     path = os.path.join(directory, filename)
-    with open(path, 'w', encoding='utf-8') as csv_datoteka:
+    with open(path, 'a', encoding='utf-8') as csv_datoteka:
         writer = csv.DictWriter(csv_datoteka, fieldnames=imena_polj)
         writer.writeheader()
         for slovar in slovarji:
@@ -263,9 +268,20 @@ def zapisi_csv(slovarji, imena_polj, directory, filename):
 def zapisi_json(slovarji, directory, filename):
     os.makedirs(directory, exist_ok=True)
     path = os.path.join(directory, filename)
-    with open(path, 'w', encoding='utf-8') as json_datoteka:
+    with open(path, 'a', encoding='utf-8') as json_datoteka:
         json.dump(slovarji, json_datoteka, indent=5, ensure_ascii=False)
     print('napisal sem json file!')
 
+
+
+def naredi_vse_csv(url, directory_glavni, directory_dnevni, filename_glavni_csv, filename_dnevni_html, filename_dnevni_csv):
+    save_frontpage(url, directory_dnevni, filename_dnevni_html) #naredimo HTML datoteko za danasnji dan
+
+    slovar = get_dict_from_ad_block(directory_dnevni, filename_dnevni_html)
+    zapisi_csv(slovar, imena_stolpcev, directory_glavni, filename_glavni_csv)
+    zapisi_csv(slovar, imena_stolpcev, directory_dnevni, filename_dnevni_csv)
+
 MODELI = izlusci_modele(directory_mapa, 'search_stran.html')
 MODELI_BOLJSE = modeli_znamk(directory_mapa, 'search_stran.html')
+
+
