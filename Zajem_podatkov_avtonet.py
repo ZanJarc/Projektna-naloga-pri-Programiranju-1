@@ -264,6 +264,13 @@ def zapisi_csv(slovarji, imena_polj, directory, filename):
             writer.writerow(slovar)
     print('Napisal sem csv!')
 
+def zapisi_csv_brez_headerja(slovarji, imena_polj, directory, filename):
+    os.makedirs(directory, exist_ok=True)
+    path = os.path.join(directory, filename)
+    with open(path, 'a', encoding='utf-8') as csv_datoteka:
+        writer = csv.DictWriter(csv_datoteka, fieldnames=imena_polj)
+        for slovar in slovarji:
+            writer.writerow(slovar)
 
 def zapisi_json(slovarji, directory, filename):
     os.makedirs(directory, exist_ok=True)
@@ -277,8 +284,8 @@ def zapisi_json(slovarji, directory, filename):
 def naredi_vse_csv(url, directory_glavni, directory_dnevni, filename_glavni_csv, filename_dnevni_html, filename_dnevni_csv):
     save_frontpage(url, directory_dnevni, filename_dnevni_html) #naredimo HTML datoteko za danasnji dan
 
-    slovar = get_dict_from_ad_block(directory_dnevni, filename_dnevni_html)
-    zapisi_csv(slovar, imena_stolpcev, directory_glavni, filename_glavni_csv)
+    slovar = get_dict_from_ad_block_BOLJSE(directory_dnevni, filename_dnevni_html)
+    zapisi_csv_brez_headerja(slovar, imena_stolpcev, directory_glavni, filename_glavni_csv)
     zapisi_csv(slovar, imena_stolpcev, directory_dnevni, filename_dnevni_csv)
 
 MODELI = izlusci_modele(directory_mapa, 'search_stran.html')
