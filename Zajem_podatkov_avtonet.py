@@ -4,6 +4,7 @@ import os
 import csv
 import json
 import datetime
+from pytz import timezone
 
 
 avtonet_url = 'https://www.avto.net/Ads/results_100.asp?oglasrubrika=1&prodajalec=2'
@@ -15,6 +16,7 @@ podatki_json = 'JSONpodatki.json'
 slovarji_html = 'slovarji.html'
 directory_dnevno = 'Mapa s podatki/Dnevni podatki'
 now = datetime.datetime.now()
+datetime_now_gtm = now.replace(tzinfo=timezone('Europe/Berlin'))
 imena_stolpcev = ['ime', 'letnik', 'kilometrina', 'motor', 'menjalnik', 'cena', 'cas']
 
 
@@ -271,6 +273,7 @@ def zapisi_csv_brez_headerja(slovarji, imena_polj, directory, filename):
         writer = csv.DictWriter(csv_datoteka, fieldnames=imena_polj)
         for slovar in slovarji:
             writer.writerow(slovar)
+    print('Dopolnil sem csv')
 
 def zapisi_json(slovarji, directory, filename):
     os.makedirs(directory, exist_ok=True)
