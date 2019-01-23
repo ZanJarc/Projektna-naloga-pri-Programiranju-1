@@ -17,7 +17,7 @@ slovarji_html = 'slovarji.html'
 directory_dnevno = 'Mapa s podatki/Dnevni podatki'
 now = datetime.datetime.now()
 datetime_now_gtm = now.replace(tzinfo=timezone('Europe/Berlin'))
-imena_stolpcev = ['ime', 'letnik', 'kilometrina', 'motor', 'menjalnik', 'cena', 'cas']
+imena_stolpcev = ['znamka', 'ime', 'letnik', 'kilometrina', 'motor', 'velikost motorja', 'menjalnik', 'cena', 'cas']
 
 
 def download_url_to_string(url):
@@ -94,7 +94,6 @@ def save_ads(directory, podatki, filename):
 def izloci_podatke_oglasa(ujemanje_oglasa):
     podatki_oglasa = ujemanje_oglasa.groupdict()
     podatki_oglasa['cas'] = (now.day, now.month)
-    podatki_oglasa['cena'] = podatki_oglasa['cena'] + '€'
     for model in MODELI:
         for ujemanje in re.finditer(model, podatki_oglasa['ime'], re.DOTALL):
             if ujemanje.group(0):
@@ -106,12 +105,21 @@ def izloci_podatke_oglasa(ujemanje_oglasa):
 def izloci_podatke_oglasa_BOLJSE(ujemanje_oglasa):
     podatki_oglasa = ujemanje_oglasa.groupdict()
     podatki_oglasa['cas'] = (now.day, now.month)
-    podatki_oglasa['cena'] = podatki_oglasa['cena'] + '€'
     for znamka in MODELI_BOLJSE:
         if znamka.lower() in podatki_oglasa['ime'].lower():
             for model in MODELI_BOLJSE[znamka]:
                 if '{} {}'.format(znamka, model).lower() in podatki_oglasa['ime'].lower():
-                    podatki_oglasa['ime'] = '{} {}'.format(znamka, model)
+                    podatki_oglasa['ime'] = model
+                    podatki_oglasa["znamka"] = znamka
+    podatki_oglasa["kilometrina"] = ''.join(x for x in podatki_oglasa["kilometrina"] if x.isdigit())
+    podatki_motorja = podatki_oglasa["motor"].split(',')
+    podatki_oglasa["velikost motorja"] = ''.join(x for x in podatki_motorja[1].split() if x.isdigit())
+    podatki_oglasa["motor"] = podatki_motorja[0].strip()
+    if "ročni menjalnik" in podatki_oglasa["menjalnik"]:
+        podatki_oglasa["menjalnik"] = "ročni menjalnik"
+    else:
+        podatki_oglasa["menjalnik"] = "avtomatski menjalnik"
+
     return podatki_oglasa
 
 
@@ -248,9 +256,9 @@ def modeli_znamk(directory, filename):
     for ujemanje in re.finditer(vzorec, models[0], re.DOTALL):
         if ujemanje.group('model') != "modela ni na seznamu":
             if ujemanje.group('znamka') in list_of_models:
-                list_of_models[ujemanje.group('znamka')].append(ujemanje.group('model'))
+                list_of_models[ujemanje.group('znamka').strip()].append(ujemanje.group('model').strip())
             else:
-                list_of_models[ujemanje.group('znamka')] = [ujemanje.group('model')]
+                list_of_models[ujemanje.group('znamka').strip()] = [ujemanje.group('model').strip()]
     return list_of_models
    
 
@@ -288,10 +296,22 @@ def naredi_vse_csv(url, directory_glavni, directory_dnevni, filename_glavni_csv,
     save_frontpage(url, directory_dnevni, filename_dnevni_html) #naredimo HTML datoteko za danasnji dan
 
     slovar = get_dict_from_ad_block_BOLJSE(directory_dnevni, filename_dnevni_html)
-    zapisi_csv_brez_headerja(slovar, imena_stolpcev, directory_glavni, filename_glavni_csv)
+    "zapisi_csv_brez_headerja(slovar, imena_stolpcev, directory_glavni, filename_glavni_csv)"
     zapisi_csv(slovar, imena_stolpcev, directory_dnevni, filename_dnevni_csv)
 
 MODELI = izlusci_modele(directory_mapa, 'search_stran.html')
 MODELI_BOLJSE = modeli_znamk(directory_mapa, 'search_stran.html')
+MODELI_BOLJSE["Land Rover"] = MODELI_BOLJSE["LandRover"]
+del MODELI_BOLJSE["LandRover"]
+
+
+def prepisi(directory_glavni, directory_dnevni, filename_glavni_csv, filename_dnevni_html):
+    slovar = get_dict_from_ad_block_BOLJSE(directory_dnevni, filename_dnevni_html)
+    zapisi_csv_brez_headerja(slovar, imena_stolpcev, directory_glavni, filename_glavni_csv)
+
+def prepisi_prvic(directory_glavni, directory_dnevni, filename_glavni_csv, filename_dnevni_html):
+    slovar =  get_dict_from_ad_block_BOLJSE(directory_dnevni, filename_dnevni_html)
+    zapisi_csv(slovar, imena_stolpcev, directory_glavni, filename_glavni_csv)
+
 
 
