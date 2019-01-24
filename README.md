@@ -12,7 +12,7 @@ Zajel bom naslednje podatke:
 - prevozeni kilometri
 - vrsta motorja
 - prostornina motorja
-- menjalnik'
+- menjalnik
 - cena
 - datum pridobitbe podatkov
 
@@ -23,9 +23,9 @@ S tem bom želel ugotoviti naslednje stvari:
 Proti koncu zadnjega oddajnega roka bom s strani avto.net vzel se 1000 oglasov in jih analiziral podobno kot bom analiziral podatke,
 ki jih bom dopolnjeval vsak dan.
 
-V mapi 'Mapa s podatki' se nahaja glavna .csv datoteka, 'avtomobili.csv'. Tukaj so shranjeni vsi zajemi. Mapa vsebuje se 'search stran', s pomočjo katere sem lahko naredil slovar znamk in modelov.
+V mapi `Mapa s podatki` se nahaja glavna .csv datoteka, `avtomobili.csv`. Tukaj so shranjeni vsi zajemi. Mapa vsebuje se 'search stran', s pomočjo katere sem lahko naredil slovar znamk in modelov.
 
-V mapi 'Dnevni podatki' pa se nahajajo podatki za vsak dan zajema posebej. Npr. datoteka 'CSV 5. 11' vsebuje csv podatke za dan 5. 11., medtem ko datoteka 'HTML 5. 11' shranjena stran zajema za dan 5. 11.
+V mapi `Dnevni podatki` pa se nahajajo podatki za vsak dan zajema posebej. Npr. datoteka 'CSV 5. 11' vsebuje csv podatke za dan 5. 11., medtem ko datoteka 'HTML 5. 11' shranjena stran zajema za dan 5. 11.
 
-Datoteka 'zajem_podatkov_avtonet' pa je python datoteka, s katero sem s spletne strani uspel pridobiti in zapisati podatke.
-Datoteka 'Analiza.ipynb' vsebuje glavno poročilo.
+Datoteka `zajem_podatkov_avtonet` pa je python datoteka, s katero sem s spletne strani uspel pridobiti in zapisati podatke.
+Datoteka `Analiza.ipynb` vsebuje glavno poročilo.
